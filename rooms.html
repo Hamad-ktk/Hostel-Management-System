@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HMS - Rooms</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="logo">HMS Admin</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="students.html">Students</a></li>
+          <li><a href="rooms.html" class="active">Rooms</a></li>
+          <li><a href="fees.html">Fees</a></li>
+        </ul>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <div class="topbar">
+          <div class="topbar-title">Rooms</div>
+          <div class="user-info">Admin User</div>
+        </div>
+
+        <div class="content">
+          <div class="page-header">
+            <h1>Manage Rooms</h1>
+            <button class="btn-primary">Add Room</button>
+          </div>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Room Number</th>
+                <th>Capacity</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>101</td>
+                <td>3</td>
+                <td><button class="btn-sm">Edit</button></td>
+              </tr>
+              <tr>
+                <td colspan="4" style="text-align: center; color: #888;">
+                  (Data will come from database in Phase 4)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

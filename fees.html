@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HMS - Fees</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="logo">HMS Admin</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="students.html">Students</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="fees.html" class="active">Fees</a></li>
+        </ul>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <div class="topbar">
+          <div class="topbar-title">Fees</div>
+          <div class="user-info">Admin User</div>
+        </div>
+
+        <div class="content">
+          <div class="page-header">
+            <h1>Fee Records</h1>
+            <button class="btn-primary">Add Fee Record</button>
+          </div>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Student ID</th>
+                <th>Amount ($)</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>1 (John Doe)</td>
+                <td>500</td>
+                <td><span class="status paid">Paid</span></td>
+                <td><button class="btn-sm">Edit</button></td>
+              </tr>
+              <tr>
+                <td colspan="5" style="text-align: center; color: #888;">
+                  (Data will come from database in Phase 4)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
